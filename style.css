@@ -1,0 +1,117 @@
+html, body {
+    background-color: #faf8ef;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board {
+    width: 750px;
+    height: 750px;
+    background-color: #bbada0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.tile-margin {
+    width: 705px;
+    height: 705px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.empty-tile {
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdc1b4;
+}
+
+h1 {
+    font-size: 4.5em;
+    color: #776e65;
+}
+
+.game {
+    visibility: hidden;
+    text-align: center;
+    color: #8f7a66;
+}
+
+#newgame {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    background-color: #8f7a66;
+    border-radius: 5px;
+    color: #faf8ef;
+    border: 0px;
+}
+
+.two {
+    background-color: #eee4da;
+}
+
+.four {
+    background-color: #ede0c8;
+}
+
+.eight {
+    background-color: #f2b179;
+}
+
+.sixteen {
+    background-color: #f69664;
+}
+
+.thirtytwo {
+    background-color: #f77c5f;
+}
+
+.sixtyfour {
+    background-color: #f65e3b;
+}
+
+.onetwoeight {
+    background-color: #edcf72;
+}
+
+.twofivesix {
+    background-color: #ebc862;
+}
+
+.fiveonetwo {
+    background-color: #ecbe35;
+}
+
+.onezerotwofour {
+    background-color: #e9b824;
+}
+
+.twozerofoureight {
+    background-color: #ebb208;
+}
+
+.rest {
+    background-color: #29bbe7;
+}
+
+.white {
+    color: white;
+}
