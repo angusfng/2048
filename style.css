@@ -47,8 +47,8 @@ h1 {
     color: #776e65;
 }
 
-.game {
-    visibility: hidden;
+.gamemenu {
+    /* visibility: hidden; */
     text-align: center;
     color: #8f7a66;
 }

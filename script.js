@@ -195,3 +195,10 @@ const handler = (event) => {
 
 document.addEventListener('keydown', handler);
 
+const newGameButton = document.getElementById("newgame");
+newGameButton.addEventListener("click", () => {
+    gameBoard = emptyBoard(4);
+    gameBoard[0][0] = 2;
+    updateBoard();
+});
+
